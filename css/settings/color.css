@@ -1,0 +1,11 @@
+:root {
+  --color-zero: #fff;
+  --color-negative: #000;
+
+  --color-first: #1c45a4;
+  --color-second: #24d39b;
+
+  --color-text: #292929;
+
+  --color-none: transparent;
+}

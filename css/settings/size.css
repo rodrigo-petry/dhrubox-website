@@ -1,0 +1,26 @@
+:root {
+  --size-main-title: 65px;
+  --size-second-title: 40px;
+  --size-sub-title: 20px;
+  --size-card-title: 23px;
+  --size-text-normal: 18px;
+
+  --button-text: 15px;
+  --button-radius: 50px;
+
+  --line-height: 30px;
+
+  --navbar-size: 80px;
+
+  --semi-bold: 600;
+
+  --spacing-big: 180px;
+  --spacing-medium: 50px;
+  --spacing-normal: 30px;
+  --spacing-small: 15px;
+
+  --spacing-title: 160px;
+  --spacing-image: 200px;
+
+  --border: 2px;
+}

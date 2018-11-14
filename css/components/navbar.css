@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  height: var(--navbar-size);
+  background-color: var(--color-none);
+  position: absolute;
+  width: 100%;
+}
+
+.item {
+  display: inline;
+  line-height: var(--navbar-size);
+}
+
+.item > a {
+  color: var(--color-zero);
+  text-transform: uppercase;
+  font-size: var(--button-text);
+  padding: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.logo_img {
+  margin-top: var(--size-sub-title);
+}
+
+.navbar-items {
+  margin-left: auto;
+}
