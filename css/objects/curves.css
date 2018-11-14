@@ -1,0 +1,8 @@
+.curves {
+  padding-bottom: var(--spacing-medium);
+  margin-top: var(--spacing-small);
+}
+
+.curves img {
+  width: 45%;
+}

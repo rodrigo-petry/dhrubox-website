@@ -1,0 +1,5 @@
+.group {
+  width: 50%;
+  margin-top: var(--spacing-image);
+  margin-left: var(--spacing-medium);
+}

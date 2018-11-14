@@ -1,0 +1,20 @@
+.main-content button {
+  background-color: var(--color-second);
+  border: none;
+  padding: var(--spacing-small) var(--spacing-medium);
+  color: var(--color-zero);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: var(--button-text);
+  border-radius: var(--button-radius);
+  border: var(--border) solid var(--color-none);
+}
+
+.main-content button:hover {
+  background-color: var(--color-none);
+  color: var(--color-second);
+  border: var(--border) solid var(--color-second);
+
+  transition: all 200ms linear;
+}

@@ -1,0 +1,23 @@
+.main-content h1 {
+  font-size: var(--size-main-title);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  color: var(--color-title);
+}
+
+.main-content h1:after {
+  display: block;
+  content: '';
+  width: 80px;
+  border-top: var(--border) solid var(--color-second);
+  margin: var(--size-sub-title) 0;
+}
+
+.main-content p {
+  font-size: var(--size-text-normal);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  opacity: 0.8;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: var(--spacing-normal) 0;
+}
