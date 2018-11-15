@@ -1,0 +1,10 @@
+.client-list-images {
+  width: 100%;
+  text-align: center;
+  margin-top: var(--spacing-medium);
+  padding-bottom: var(--spacing-medium);
+} 
+
+.client-list-images img {
+  padding-right: var(--spacing-small);
+}

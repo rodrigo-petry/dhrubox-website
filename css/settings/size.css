@@ -2,6 +2,7 @@
   --size-main-title: 65px;
   --size-second-title: 40px;
   --size-sub-title: 20px;
+  --size-medium-title: 30px;
   --size-card-title: 23px;
   --size-text-normal: 18px;
 
@@ -9,6 +10,7 @@
   --button-radius: 50px;
 
   --line-height: 30px;
+  --medium-line-height: 1.33em;
 
   --navbar-size: 80px;
 

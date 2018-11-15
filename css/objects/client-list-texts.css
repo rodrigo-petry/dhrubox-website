@@ -1,0 +1,20 @@
+.client-list-texts {
+  width: 60%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.client-list h3 {
+  font-size: var(--size-sub-title);
+  color: var(--color-second);
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: var(--spacing-small);
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.client-list h2 {
+  font-weight: bold;
+  font-size: var(--size-medium-title);
+  line-height: var(--medium-line-height);
+  color: var(--color-text);
+}
