@@ -17,12 +17,14 @@
   --semi-bold: 600;
 
   --spacing-big: 180px;
+  --spacing-less-big: 100px;
   --spacing-medium: 50px;
   --spacing-normal: 30px;
   --spacing-small: 15px;
 
   --spacing-title: 160px;
   --spacing-image: 200px;
+  --spacing-block: 98px;
 
   --border: 2px;
 }

@@ -1,0 +1,17 @@
+.our-services {
+  background-color: var(--color-background-light);
+  padding-bottom: var(--spacing-medium);
+  width: 100%;
+}
+
+.our-services-text {
+  text-align: center;
+  padding-top: var(--spacing-block);
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}

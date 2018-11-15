@@ -3,19 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>DhRubox - Infotech Services Limited</title>
-
+    <!-- Fonts Import -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" rel="stylesheet">
-
+    <!--
+      The CSS files is divided into five parts, base, components, generic, objects and settings:
+  
+      Components - Here as the name says, we will have our components more specific. According to RSCSS, here we will play all those components / elements created.
+      Generic - This is the first layer that will actually apply final CSS and it is intended for the most generic properties and with the lowest specificity possible.
+      Base - Here will be the basic styling, the last layer that we will see selectors in tags directly.
+      Objects - Is where we make the patterns of buttons, lists, panels, etc. At this time, only the use of classes is allowed. Following the standard of RSCSS.
+      Settings - These are the basic settings of your architecture. In general, it's the global variables that will define the colors, spacing, and other settings you want to work for your framework itself.
+    -->
+    <!-- Generic -->
     <link rel="stylesheet" href="css/generic/reset.css">
-
+    <!-- Settings -->
     <link rel="stylesheet" href="css/settings/color.css">
     <link rel="stylesheet" href="css/settings/size.css">
-
+    <!-- Components -->
     <link rel="stylesheet" href="css/components/navbar.css">
     <link rel="stylesheet" href="css/components/main-content.css">
     <link rel="stylesheet" href="css/components/client-list.css">
-
+    <link rel="stylesheet" href="css/components/our-services.css">
+    <!-- Objects -->
     <link rel="stylesheet" href="css/objects/container.css">
     <link rel="stylesheet" href="css/objects/block.css">
     <link rel="stylesheet" href="css/objects/curves.css">
@@ -23,6 +33,8 @@
     <link rel="stylesheet" href="css/objects/main-button.css">
     <link rel="stylesheet" href="css/objects/main-texts.css">
     <link rel="stylesheet" href="css/objects/client-list-texts.css">
+    <link rel="stylesheet" href="css/objects/our-services-texts.css">
+    <link rel="stylesheet" href="css/objects/our-services-cards.css">
 
   </head>
 
@@ -33,24 +45,25 @@
         <a href="index.html">
           <img src="img/logo.png" alt="DhRubox - Infotech Services Limited" class="logo_img">
         </a>
-        
+        <!-- Navbar Links List -->
         <ul class="navbar-items">
+          <!-- Navbar Links Item -->
           <li class="item">
             <a href="#work">Work</a>
           </li>
-  
+          <!-- Navbar Links Item -->
           <li class="item">
             <a href="#about">About</a>
           </li>
-  
+          <!-- Navbar Links Item -->
           <li class="item">
             <a href="#case-study">Case Study</a>
           </li>
-  
+          <!-- Navbar Links Item -->
           <li class="item">
             <a href="#blog">Blog</a>
           </li>
-  
+          <!-- Navbar Links Item -->
           <li class="item">
             <a href="#contact">Contact</a>
           </li>
@@ -87,13 +100,66 @@
         </div>
         <!-- Client List Images -->
         <div class="client-list-images">
+          <!-- First Image -->
           <img src="img/Image 4.png" alt="Found Moto Image">
+          <!-- Second Image -->
           <img src="img/Image 5.png" alt="Eagle Image">
+          <!-- Third  Image -->
           <img src="img/Image 6.png" alt="Symbol Image">
+          <!-- Fourth Image -->
           <img src="img/Image 7.png" alt="The Juicy Company Image">
+          <!-- Fifth Image -->
           <img src="img/Image 8.png" alt="Sparrow Image">
         </div>
       </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="our-services block">
+      <div class="custom-container">
+        <div class="our-services-text">
+          <h3>Our Services</h3>
+          <h2>&quot;The world has become so fast paced that people&quot;</h2>
+        </div>
+
+        <div class="our-services-cards">
+          <div class="row">
+            <!-- First Card - Mobile Apps -->
+            <article class="card">
+              <img src="img/Group 140.png" alt="Service Image One">
+              <h4>Mobile Apps</h4>
+              <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much</p>
+              <button>Learn More</button>
+            </article>
+            <!-- Second Card - Website Design & -->
+            <article class="card">
+              <img src="img/Group 141.png" alt="Service Image One">
+              <h4>Website Design &amp;</h4>
+              <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much</p>
+              <button>Learn More</button>
+            </article>
+            <!-- Third Card - UI/UX Design -->
+            <article class="card">
+              <img src="img/Group 142.png" alt="Service Image One">
+              <h4>UI/UX Design</h4>
+              <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much</p>
+              <button>Learn More</button>
+            </article>
+            <!-- Fourth Card - Enterprise Software -->
+            <article class="card">
+              <img src="img/Group 140.png" alt="Service Image One">
+              <h4>Enterprise Software</h4>
+              <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much</p>
+              <button>Learn More</button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Study Section -->
+    <section class="case-study block">
+      
     </section>
   </body>
 </html>

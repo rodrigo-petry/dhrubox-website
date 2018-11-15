@@ -16,9 +16,14 @@
   text-transform: uppercase;
   font-size: var(--button-text);
   padding: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none;
   font-weight: 500;
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.item > a:hover {
+  color: var(--color-zero-light);
 }
 
 .logo_img {
