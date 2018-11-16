@@ -1,0 +1,17 @@
+.case-study-texts {
+  text-align: center;
+}
+
+.case-study-texts h3 {
+  color: var(--color-second);
+  font-size: var(--size-sub-title);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.case-study-texts h2 {
+  color: var(--color-text);
+  font-size: var(--size-medium-title);
+  font-weight: bold;
+  padding-top: var(--spacing-small);
+}

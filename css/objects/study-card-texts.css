@@ -1,0 +1,22 @@
+.card-texts {
+  padding: var(--spacing-normal);
+}
+
+.card-texts h5 {
+  font-size: var(--size-card-sub-title);
+  color: var(--color-card-sub-title);
+  margin-bottom: var(--spacing-small);
+}
+
+.card-texts h4 {
+  color: var(--color-text);
+  font-weight: bold;
+  font-size: var(--size-card-title);
+  margin-bottom: var(--spacing-normal);
+}
+
+.card-texts p {
+  color: var(--color-text);
+  opacity: 0.80;
+  line-height: var(--line-height);
+}

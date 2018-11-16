@@ -1,0 +1,29 @@
+.testimonial-texts {
+  text-align: center;
+  padding-top: var(--spacing-block);
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.testimonial-texts h3 {
+  color: var(--color-second);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: var(--size-sub-title);
+  margin-bottom: var(--spacing-small);
+}
+
+.testimonial-texts h2 {
+  font-weight: bold;
+  font-size: var(--size-medium-title);
+  color: var(--color-text);
+}
+
+.client-function {
+  opacity: 0.80;
+  margin-top: var(--spacing-small);
+}
+
+.card-text {
+  line-height: 25px;
+}

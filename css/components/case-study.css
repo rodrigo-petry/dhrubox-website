@@ -1,0 +1,6 @@
+.case-study {
+  padding-top: var(--spacing-block);
+  padding-bottom: var(--spacing-less-big);
+
+  font-family: 'Source Sans Pro', sans-serif;
+}

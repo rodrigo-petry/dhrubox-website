@@ -1,0 +1,13 @@
+.study-card {
+  width: 49%;
+  background: var(--color-zero);
+  border: var(--border) solid var(--color-card-border);
+  border-radius: var(--card-radius);  
+  margin-top: var(--spacing-medium);
+  margin-left: 1%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.study-card img {
+  min-width: 100%;
+}

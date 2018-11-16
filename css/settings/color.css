@@ -9,8 +9,10 @@
 
   --color-text: #292929;
   --color-title: #5c5c5c;
+  --color-card-sub-title: #08a372;
   
   --color-none: transparent;
 
   --color-border: #d2d5d9;
+  --color-card-border: #ebebeb;
 }

@@ -1,0 +1,21 @@
+.testimonial-clients-cards {
+  width: 32.333%;
+  margin-left: 1%;
+  text-align: center;
+  background: var(--color-zero);
+  border: var(--border) solid var(--color-card-border);
+  padding-top: var(--spacing-normal);
+  padding-bottom: var(--spacing-normal);
+  padding-right: var(--spacing-medium);
+  padding-left: var(--spacing-medium);
+  margin-top: var(--spacing-medium);
+}
+
+.testimonial-clients-cards img {
+  margin-bottom: var(--spacing-normal);
+}
+
+.client-image {
+  margin-top: var(--spacing-normal);
+  margin-bottom: var(--spacing-small);
+}

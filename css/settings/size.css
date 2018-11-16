@@ -5,6 +5,7 @@
   --size-medium-title: 30px;
   --size-card-title: 23px;
   --size-text-normal: 18px;
+  --size-card-sub-title: 13px;
 
   --button-text: 15px;
   --button-radius: 50px;
@@ -27,4 +28,5 @@
   --spacing-block: 98px;
 
   --border: 2px;
+  --card-radius: 10px;
 }
