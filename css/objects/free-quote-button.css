@@ -1,0 +1,20 @@
+.free-quote button {
+  background-color: var(--color-zero);
+  border: none;
+  color: var(--color-text);
+  font-weight: bold;
+  padding: var(--spacing-small) var(--spacing-normal) !important;
+  height: 100%;
+  margin-top: var(--spacing-small);
+  cursor: pointer;
+  border: var(--border) solid var(--color-none);
+  margin-left: auto;
+
+  transition: all 200ms linear;
+}
+
+.free-quote button:hover {
+  background-color: var(--color-none);
+  border: var(--border) solid var(--color-zero);
+  color: var(--color-zero);
+}

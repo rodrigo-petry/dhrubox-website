@@ -1,0 +1,40 @@
+.our-blog-texts {
+  text-align: left;
+}
+
+.our-blog-texts h3 {
+  font-size: var(--size-sub-title);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--color-second);
+  margin-bottom: var(--spacing-small);
+}
+
+.our-blog-texts h2 {
+  font-size: var(--size-medium-title);
+  font-weight: 100;
+  margin-bottom: var(--spacing-medium);
+}
+
+.client-informations {
+  display: flex;
+}
+
+.client-informations p {
+  margin-top: var(--spacing-small);
+  margin-left: var(--spacing-small);
+  color: var(--color-text-client);
+  opacity: 0.65;
+  font-size: var(--size-text-normal) !important;
+}
+
+.card-content h4 {
+  font-size: var(--size-sub-title);
+  margin-bottom: var(--spacing-medium);
+}
+
+.card-content p {
+  font-size: var(--size-sub-title);
+  line-height: var(--line-height);
+  opacity: 0.80;
+}

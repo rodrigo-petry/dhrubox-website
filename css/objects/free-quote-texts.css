@@ -1,0 +1,17 @@
+.free-quote-texts {
+  text-align: left;
+  width: 28%;
+}
+
+.free-quote-texts h3 {
+  font-size: var(--size-card-title);
+  color: var(--color-zero);
+  font-weight: bold;
+  margin-bottom: var(--spacing-small);
+}
+
+.free-quote-texts p {
+  color: var(--color-zero);
+  opacity: 0.80;
+  line-height: var(--medium-line-height);
+}

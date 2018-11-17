@@ -1,0 +1,6 @@
+.our-blog {
+  padding-top: var(--spacing-block);
+  padding-bottom: var(--spacing-medium);
+
+  font-family: "Source Sans Pro", sans-serif;
+}

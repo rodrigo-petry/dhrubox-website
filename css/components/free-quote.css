@@ -1,0 +1,6 @@
+.free-quote {
+  background-color: var(--color-first);
+  padding: var(--spacing-more-medium);
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
