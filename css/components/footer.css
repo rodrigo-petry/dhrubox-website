@@ -1,0 +1,28 @@
+footer {
+  width: 100%;
+  padding-top: var(--spacing-medium);
+  background: var(--color-background-light);
+  padding-bottom: var(--spacing-small);
+}
+
+footer .list {
+  width: 33.333%;
+  text-align: center;
+}
+
+.social-icons {
+  justify-content: center;
+  display: flex;
+  background-color: var(--color-footer-icons);
+  padding: var(--spacing-normal);
+  width: 100%;
+}
+
+.social-icons i {
+  margin-right: var(--spacing-normal);
+  color: var(--color-text);
+}
+
+.social-icons i:hover {
+  color: var(--color-negative-light);
+}

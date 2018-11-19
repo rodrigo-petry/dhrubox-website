@@ -1,0 +1,17 @@
+footer {
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer h5 {
+  color: var(--color-negative);
+  font-size: var(--size-text-normal);
+  margin-bottom: var(--spacing-normal);
+}
+
+footer p {
+  color: #86939e;
+  line-height: var(--medium-line-height);
+  margin-bottom: var(--spacing-small);
+}
+

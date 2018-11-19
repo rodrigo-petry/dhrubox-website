@@ -2,7 +2,9 @@
   --color-zero: #fff;
   --color-zero-light: rgba(255, 255, 255, 0.7);
   --color-negative: #000;
+  --color-negative-light: rgba(0, 0, 0, 0.7);
   --color-background-light: #f1f4f9;
+  --color-footer-icons: #e9e9e9;
 
   --color-first: #1c45a4;
   --color-second: #24d39b;
